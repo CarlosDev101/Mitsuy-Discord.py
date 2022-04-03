@@ -8,11 +8,10 @@
 <h1>Olá, me chamo CarlosDev e hoje eu lhe apresento <b>Mitsuy</b></h1>
 Mitsuy é umm bot feito em python para o discord. Mitsuy foi criada para te ajudar a administrar o servidor, com tarefas chatas do tipo: <b>Criar canais, Deletar canais, Apagar as mensagens</b> entre outras coisas.
 
-<div align="center" style="display: inline_block">
-    <img  alt="CarlosDev-Look" height="200" width="200" src="imgs/look.PNG">
-    <img  alt="CarlosDev-Unlook" height="200" width="200" src="imgs/destrancar.PNG">
-    <img  alt="CarlosDev-Ping" height="200" width="200" src="ping.PNG">
-</div>
+<img  alt="CarlosDev-Look" src="imgs/look.PNG">
+<img  alt="CarlosDev-Unlook" src="imgs/destrancar.PNG">
+<img  alt="CarlosDev-Ping" src="ping.PNG">
+
 
 # Mitsuy possui as seguintes funções
 
