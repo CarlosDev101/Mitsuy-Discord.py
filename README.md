@@ -10,7 +10,7 @@ Mitsuy é umm bot feito em python para o discord. Mitsuy foi criada para te ajud
 
 <img  alt="CarlosDev-Look" src="imgs/look.PNG">
 <img  alt="CarlosDev-Unlook" src="imgs/destrancar.PNG">
-<img  alt="CarlosDev-Ping" src="ping.PNG">
+<img  alt="CarlosDev-Ping" src="imgs/ping.PNG">
 
 
 # Mitsuy possui as seguintes funções
