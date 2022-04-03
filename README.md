@@ -23,27 +23,9 @@ Mitsuy é umm bot feito em python para o discord. Mitsuy foi criada para te ajud
 
 	° seeunlock = serve para permitir que membros comuns vejam o chat
 
-	° setup = serve para configurar permissoes do chat
-
-	° userinfo = serve para ver as informações do usuário
-
-	° kick = serve para expulsar o membro
-
-	° ban = serve para banir o membro
-
-	° unban = serve para desbanir o membro
-
-	° lento = serve para colocar no modo lento
-
-	° mute = serve para mutar a pessoa
-
-	° unmute = serve para desmutar a pessoa`
-
 	° clear = serve para limpar o chat
 
 	° avatar = serve para ver o avatar da pessoa
-
-	° servericon = serve para ver a foto do servidor
 
 	° ping = serve para ver a sua latência
 
