@@ -6,7 +6,7 @@
 </div>
 
 <h1>Olá, me chamo CarlosDev e hoje eu lhe apresento <b>Mitsuy</b></h1>
-Mitsuy é umm bot feito em python para o discord. Mitsuy foi criada para te ajudar a administrar o servidor, com tarefas chatas do tipo: <b>Criar canais, Deletar canais, Apagar as mensagens</b> entre outras coisas.
+Mitsuy é um bot feito em python para o discord. Mitsuy foi criada para te ajudar a administrar o servidor, com tarefas chatas do tipo: <b>Criar canais, Deletar canais, Apagar as mensagens</b> entre outras coisas.
 
 <img  alt="CarlosDev-Look" src="imgs/look.PNG">
 <img  alt="CarlosDev-Unlook" src="imgs/destrancar.PNG">
