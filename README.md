@@ -1,42 +1,79 @@
-# Mitsuy-Discord.py
 
-<div align="center" style="display: inline_block">
-    <img  alt="CarlosDev-Discord" height="200" width="200" src="https://miro.medium.com/max/512/0*E3Nphq-iyw_gsZFH.png">
-    <img  alt="CarlosDev-Python" height="200" width="200" src="https://budougumi0617.github.io/logos/python.png">
-</div>
 
-<h1>Olá, me chamo CarlosDev e hoje eu lhe apresento <b>Mitsuy</b></h1>
+<img src= "https://camo.githubusercontent.com/71b837571c48af3aa60a73dbc9d5936aa359d78efbfa8a6743cbbbc16b80ef4d/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830353930323039333930363630383138362f3830353931333937323533353539303932322f74656e6f722e676966"  width="1000"/>
+
+<p align="center" ><img alt="CarlosDev" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"></p>
+
+<h1 align="center">Mitsuy-Bot 1.0</h1>
+
 Mitsuy é um bot feito em python para o discord. Mitsuy foi criada para te ajudar a administrar o servidor, com tarefas chatas do tipo: <b>Criar canais, Deletar canais, Apagar as mensagens</b> entre outras coisas.
 
-<img  alt="CarlosDev-Look" src="imgs/look.PNG">
-<img  alt="CarlosDev-Unlook" src="imgs/destrancar.PNG">
-<img  alt="CarlosDev-Ping" src="imgs/ping.PNG">
+<h1 align="center">📆  Features</h2>
+
+Todos os que estão marcados já se encontram presente no **Mitsuy-Bot** funcionando. 
+Os que não estão, é porque ainda estão em desenvolvimento.
+
+- [x] Ouvir músicas
+- [x] Pesquisar imagens
+- [x] Traduzir mensagens
+- [ ] Inteligencia artificial
+- [ ] Assistir animes
+- [x] Sistema de level
+- [ ] Jogar jogos
 
 
-# Mitsuy possui as seguintes funções
+<h2 align="center">Mitsuy possui as seguintes funções de Administração</h1>
 
-	° lock = serve para trancar o chat
+	° Avatar - Vizualizar a foto de perfil do membro
 
-	° unlock = serve para destrancar o chat
+	° Clear - Apaga as mensagens do servidor
 
-	° seelock = serve para impedir que membros comuns vejam o chat
+	° Createchannel - Cria um canal de texto
 
-	° seeunlock = serve para permitir que membros comuns vejam o chat
+	° Delchannel - Deleta canal de texto
 
-	° clear = serve para limpar o chat
+	° Help - Ver os comandos do bot
 
-	° avatar = serve para ver o avatar da pessoa
+	° Loock - Tranca o canal de texto
 
-	° ping = serve para ver a sua latência
+	° Ping - Vê a latencia
 
-	° criarcanal = serve para criar um novo canal
+	° Say - Manda uma mensagem de texto através do bot
 
-	° delcanal = serve para excluir o canal
+	° Seeunlock - Permitir que os membros vejam o canal
 
-	° say = serve para você fazer o bot falar algo
+	° Seelock - Impedir que os membros comuns vejam o canal
 
-# Como configurar o bot
+	° Traduzir - Traduz uma mensagem para outro idioma
+
+	° Delay - Coloca um delay no canal de texto
+
+	° Ban - Vai banir um membro
+
+	° Unban - Vai desbanir um membro
+
+	° Kick - Expulsa um membro do servidor
+
+	° Mute - Silencia um membro
+
+	° Unmute - Tira o membro do mute
+
+<h2 align="center">Funções de entretenimento - Música</h1>
+
+	° Play - Toca uma música
+	
+	° Queue - Mostra as atuais músicas da fila
+
+	° Skip - Pula a atual música que está tocando
+
+<h2 align="center">Funções de entretenimento - Pesquisar</h1>
+
+	° Pesquisar - Pesquisa uma foto no google
+	
+<h2 align="center">Como configurar o bot</h1>
+
 	° dentro do arquivo .env coloque seu token
 
 	° o prefix padrão do bot vem como !, caso queira mudar entre no main.py e troque linha 4
+
 
