@@ -20,7 +20,7 @@ class Traduzir(commands.Cog):
         if isinstance(error, commands.MissingRequiredArgument):
             embed = discord.Embed(
                 title="Parece que você esqueceu de algo...",
-                description=f"""{ctx.author.mention} voce precisa digitar o idioma na qual voce escreveu, para qual idioma voce quer traduiz e por fim sua mensagem
+                description=f"""{ctx.author.mention} você precisa digitar o idioma na qual voce escreveu, para qual idioma você quer traduzir e por fim sua mensagem
                 Exeplo: *en pt Good Morning*
                 """,
                 color=0x0000ff
