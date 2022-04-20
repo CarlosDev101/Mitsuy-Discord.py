@@ -13,12 +13,12 @@ Mitsuy é um bot feito em python para o discord. Mitsuy foi criada para te ajuda
 Todos os que estão marcados já se encontram presente no **Mitsuy-Bot** funcionando. 
 Os que não estão, é porque ainda estão em desenvolvimento.
 
-- [✔] Ouvir músicas
-- [✔] Pesquisar imagens
-- [✔] Traduzir mensagens
+- [X] Ouvir músicas
+- [X] Pesquisar imagens
+- [X] Traduzir mensagens
 - [ ] Inteligencia artificial
 - [ ] Assistir animes
-- [✔] Sistema de level
+- [X] Sistema de level
 - [ ] Jogar jogos
 
 
