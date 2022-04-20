@@ -1,11 +1,4 @@
 discord.py
-datetime
-decouple
-os
-Itertools
-Json
-Random
-Time
 google-api-python-client
 Youtube_dl
 Translate
