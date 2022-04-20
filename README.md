@@ -13,16 +13,16 @@ Mitsuy é um bot feito em python para o discord. Mitsuy foi criada para te ajuda
 Todos os que estão marcados já se encontram presente no **Mitsuy-Bot** funcionando. 
 Os que não estão, é porque ainda estão em desenvolvimento.
 
-- [x] Ouvir músicas
-- [x] Pesquisar imagens
-- [x] Traduzir mensagens
+- [✔] Ouvir músicas
+- [✔] Pesquisar imagens
+- [✔] Traduzir mensagens
 - [ ] Inteligencia artificial
 - [ ] Assistir animes
-- [x] Sistema de level
+- [✔] Sistema de level
 - [ ] Jogar jogos
 
 
-<h2 align="center">Mitsuy possui as seguintes funções de Administração</h1>
+<h2 align="left">Mitsuy possui as seguintes funções de Administração 🕵</h1>
 
 	° Avatar - Vizualizar a foto de perfil do membro
 
@@ -58,7 +58,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 	° Unmute - Tira o membro do mute
 
-<h2 align="center">Funções de entretenimento - Música</h1>
+<h2 align="left">Funções de entretenimento - Música 🎶</h1>
 
 	° Play - Toca uma música
 	
@@ -66,14 +66,14 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 	° Skip - Pula a atual música que está tocando
 
-<h2 align="center">Funções de entretenimento - Pesquisar</h1>
+<h2 align="left">Funções de entretenimento - Pesquisar Fotos 📷</h1>
 
 	° Pesquisar - Pesquisa uma foto no google
 	
-<h2 align="center">Como configurar o bot</h1>
+<h2 align="left">Como configurar o bot 🔨</h1>
 
 	° dentro do arquivo .env coloque seu token
 
-	° o prefix padrão do bot vem como !, caso queira mudar entre no main.py e troque linha 4
+	° o prefix padrão do bot vem como !, caso queira mudar entre no main.py e troque na linha 4
 
 
