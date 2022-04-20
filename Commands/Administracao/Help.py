@@ -88,7 +88,7 @@ class Help(commands.Cog):
 
             elif reaction.emoji == "3️⃣":
                 embed = discord.Embed(
-                        title=f'Comandos da Mitsuy [pág 2/3]',
+                        title=f'Comandos da Mitsuy [pág 3/3]',
                         colour= 0x0000ff,
                         description ="""Olá, muito obrigado por estar utilizando o bot Mitsuy.
                         \n**Play** - Toca uma música
