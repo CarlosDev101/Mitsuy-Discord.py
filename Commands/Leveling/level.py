@@ -7,11 +7,15 @@ class Leveling(commands.Cog):
     
     @commands.Cog.listener()
     async def on_message(self, message):
-        with open(f"Commands/Leveling/users.json", "r+", encoding="utf8") as f:
-            user = json.load(f)
-        
+
         try:
-            with open("Commands/Leveling/users.json", "w+", encoding="utf8") as f:
+            with open(f"Commands/Leveling/{message.author.name}.json", "r+", encoding="utf8") as f:
+                user = json.load(f)
+        except Exception:
+            print(Exception)
+
+        try:
+            with open(f"Commands/Leveling/{message.author.name}.json", "w+", encoding="utf8") as f:
                 user[str(message.author.id)]["exp"] = user[str(message.author.id)]["exp"] + 1
                 lvl_start = user[str(message.author.id)]["level"]
                 lvl_end = user[str(message.author.id)]["exp"] ** (1.5/4)
@@ -28,11 +32,11 @@ class Leveling(commands.Cog):
                     await message.channel.send(embed=embed)
                     json.dump(user, f, sort_keys=True, indent=4, ensure_ascii=False)
                     return
-                
+                    
                 json.dump(user, f, sort_keys=True, indent=4, ensure_ascii=False)	
         
         except:
-            with open("Commands/Leveling/users.json", "w+", encoding="utf8") as f:
+            with open(f"Commands/Leveling/{message.author.name}.json", "w+", encoding="utf8") as f: 
                 user = { }
                 user[str(message.author.id)] = {}
                 user[str(message.author.id)]["level"] = 0
