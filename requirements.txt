@@ -1,4 +1,7 @@
 discord.py
+discord.py[voice]
+PyNaCl
+more-itertools
 google-api-python-client
 Youtube_dl
 Translate
