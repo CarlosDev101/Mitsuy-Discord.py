@@ -10,7 +10,7 @@ Mitsuy é um bot feito em python para o discord. Mitsuy foi criada para te ajuda
 
 <h1 align="center">📆  Features</h2>
 
-Todos os que estão marcados já se encontram presente no **Mitsuy-Bot** funcionando. 
+Todos os que estão marcados já se encontram presente na **Mitsuy-Bot** funcionando. 
 Os que não estão, é porque ainda estão em desenvolvimento.
 
 - [X] Ouvir músicas
