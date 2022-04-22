@@ -19,9 +19,15 @@ class Help(commands.Cog):
                     \n**Loock** - Tranca o canal de texto
                     \n**Ping** - Ver a latencia
                     \n**Say** - Manda uma mensagem de texto através do bot
-                    \n**eeunlock** - Permitir que os membros vejam o canal
+                    \n**Seeunlock** - Permitir que os membros vejam o canal
                     \n**Seelock** - Impedir que os membros comuns vejam o canal
                     \n**Traduzir** - Traduz uma mensagem para outro idioma
+                    \n**Delay** - Coloca um delay no canal de texto
+                    \n**Ban** - Vai banir um membro
+                    \n**Unban** - Vai desbanir um membro
+                    \n**Kick** - Expulsa um membro do servidor
+                    \n**Mute** - Silencia um membro
+                     \n**Unmute** - Tira o membro do mute
                     \n[Instagram do dono](https://www.instagram.com/carlosdev10/)
                     \n[Servidor para suporte](https://discord.gg/9TcEt3bF)
                     """
@@ -53,22 +59,6 @@ class Help(commands.Cog):
                         \n**Seeunlock** - Permitir que os membros vejam o canal
                         \n**Seelock** - Impedir que os membros comuns vejam o canal
                         \n**Traduzir** - Traduz uma mensagem para outro idioma
-                        \n[Instagram do dono](https://www.instagram.com/carlosdev10/)
-                        \n[Servidor para suporte](https://discord.gg/9TcEt3bF)
-                        """
-                )
-                embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
-                resposta = await message.send(embed=embed, delete_after=60)
-                await resposta.add_reaction("1️⃣")
-                await resposta.add_reaction("2️⃣")
-                await resposta.add_reaction("3️⃣")
-                break
-
-            elif reaction.emoji == "2️⃣":
-                embed = discord.Embed(
-                        title=f'Comandos da Mitsuy [pág 2/3]',
-                        colour= 0x0000ff,
-                        description ="""Olá, muito obrigado por estar utilizando o bot Mitsuy.
                         \n**Delay** - Coloca um delay no canal de texto
                         \n**Ban** - Vai banir um membro
                         \n**Unban** - Vai desbanir um membro
@@ -86,7 +76,7 @@ class Help(commands.Cog):
                 await resposta.add_reaction("3️⃣")
                 break
 
-            elif reaction.emoji == "3️⃣":
+            elif reaction.emoji == "2️⃣":
                 embed = discord.Embed(
                         title=f'Comandos da Mitsuy [pág 2/3]',
                         colour= 0x0000ff,
@@ -95,6 +85,23 @@ class Help(commands.Cog):
                         \n**Queue** - Mostra as atuais músicas da fila
                         \n**Skip** - Pula a atual música que está tocando
                         \n**Pesquisar** - Pesquisa uma foto no google
+                        \n[Instagram do dono](https://www.instagram.com/carlosdev10/)
+                        \n[Servidor para suporte](https://discord.gg/9TcEt3bF)
+                        """
+                )
+                embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
+                resposta = await message.send(embed=embed, delete_after=60)
+                await resposta.add_reaction("1️⃣")
+                await resposta.add_reaction("2️⃣")
+                await resposta.add_reaction("3️⃣")
+                break
+
+            elif reaction.emoji == "3️⃣":
+                embed = discord.Embed(
+                        title=f'Comandos da Mitsuy [pág 2/3]',
+                        colour= 0x0000ff,
+                        description ="""Olá, muito obrigado por estar utilizando o bot Mitsuy.
+                        \n**Tictoe** - Jogue o jogo da velha (Necessário dois jogadores)
                         \n[Instagram do dono](https://www.instagram.com/carlosdev10/)
                         \n[Servidor para suporte](https://discord.gg/9TcEt3bF)
                         """
