@@ -15,11 +15,10 @@ class Help(commands.Cog):
                     👮🏼‍♂️  **Administrção**
                     🎮 **Jogos**
                     🎧 **Música**
-
+                    
                     \n[Instagram do dono](https://www.instagram.com/carlosdev10/)
                     \n[Servidor para suporte](https://discord.gg/9TcEt3bF)
                     """
-
         )
         embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
         resposta = await ctx.reply(embed=embed, delete_after=60)
