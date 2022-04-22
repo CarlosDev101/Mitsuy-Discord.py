@@ -66,7 +66,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 	° Skip - Pula a atual música que está tocando
 
-<h2 align="left">Funções de entretenimento - Música 🎶</h2>
+<h2 align="left">Funções de entretenimento - Jogos 🎮</h2>
 
 	° Tictac - Jogo da velha
 
