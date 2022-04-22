@@ -19,7 +19,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 - [ ] Inteligencia artificial
 - [ ] Assistir animes
 - [X] Sistema de level
-- [ ] Jogar jogos
+- [x] Jogar jogos
 
 
 <h2 align="left">Mitsuy possui as seguintes funções de Administração 🕵</h1>
