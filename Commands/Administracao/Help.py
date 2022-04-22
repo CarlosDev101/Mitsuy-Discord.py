@@ -15,7 +15,7 @@ class Help(commands.Cog):
                     👮🏼‍♂️  **Administrção**
                     🎮 **Jogos**
                     🎧 **Música**
-                    
+
                     \n[Instagram do dono](https://www.instagram.com/carlosdev10/)
                     \n[Servidor para suporte](https://discord.gg/9TcEt3bF)
                     """
@@ -60,7 +60,6 @@ class Help(commands.Cog):
                 embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                 resposta = await message.send(embed=embed, delete_after=60)
                 await resposta.add_reaction("⏩")
-
                 
                 if reaction.emoji == "⏩":
                     embed = discord.Embed(
@@ -83,23 +82,19 @@ class Help(commands.Cog):
                     resposta = await message.send(embed=embed, delete_after=60)
                     break
 
-
-
             elif reaction.emoji == "🎮":
                 embed = discord.Embed(
                         title=f'Comandos da Mitsuy',
                         colour= 0x0000ff,
                         description ="""Olá, muito obrigado por estar utilizando o bot Mitsuy.
-                        \n**Tictoe** - Jogue o jogo da velha (Necessário dois jogadores)
+                        \n**Tictac** - Jogue o jogo da velha (Necessário dois jogadores)
                         \n[Instagram do dono](https://www.instagram.com/carlosdev10/)
                         \n[Servidor para suporte](https://discord.gg/9TcEt3bF)
                         """
                 )
                 embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                 resposta = await message.send(embed=embed, delete_after=60)
-
                 break
-            
 
             elif reaction.emoji == "🎧":
                 embed = discord.Embed(
@@ -117,6 +112,6 @@ class Help(commands.Cog):
                 embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                 resposta = await message.send(embed=embed, delete_after=60)
                 break
-                
+
 def setup(bot):
     bot.add_cog(Help(bot))
