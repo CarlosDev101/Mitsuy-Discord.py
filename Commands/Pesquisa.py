@@ -10,7 +10,7 @@ class Pesquisa(commands.Cog):
     @commands.guild_only()
     @commands.command(name="Pesquisar", aliases=["pesquisar", "search", "Scearch"])
     async def imagem(self, ctx, *, search):
-        api_key = "AIzaSyAycbnPQB3wpOeLSVeSBvxMvYMiAMrKGd0"
+        api_key = "YOUR_KEY"
         ran = random.randint(0, 9)
         resource = build("customsearch", "v1", developerKey=api_key).cse()
         result = resource.list(q=f"{search}", cx="2601e91526cbf388d", searchType="image").execute()
