@@ -58,7 +58,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 	° Unmute - Tira o membro do mute
 
-<h2 align="left">Funções de entretenimento - Música 🎶</h1>
+<h2 align="left">Funções de entretenimento - Música 🎶</h2>
 
 	° Play - Toca uma música
 	
@@ -66,11 +66,15 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 	° Skip - Pula a atual música que está tocando
 
-<h2 align="left">Funções de entretenimento - Pesquisar Fotos 📷</h1>
+<h2 align="left">Funções de entretenimento - Música 🎶</h2>
+
+	° Tictac - Jogo da velha
+
+<h2 align="left">Funções de entretenimento - Pesquisar Fotos 📷</h2>
 
 	° Pesquisar - Pesquisa uma foto no google
 	
-<h2 align="left">Como configurar o bot 🔨</h1>
+<h2 align="left">Como configurar o bot 🔨</h2>
 
 	° dentro do arquivo .env coloque seu token
 
