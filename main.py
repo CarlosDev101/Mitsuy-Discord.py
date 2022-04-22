@@ -9,19 +9,25 @@ def load_cogs(bot):
 
     for comandos in os.listdir("Commands"):
         if comandos.endswith(".py"):
-            cog2 = comandos[:-3]
-            bot.load_extension(f"Commands.{cog2}")
+            cog = comandos[:-3]
+            bot.load_extension(f"Commands.{cog}")
 
     for commands in os.listdir("Commands/Administracao"):
         if commands.endswith(".py"):
-            cog3 = commands[:-3]
-            bot.load_extension(f"Commands.Administracao.{cog3}")
+            cog = commands[:-3]
+            bot.load_extension(f"Commands.Administracao.{cog}")
     
     
     for commands in os.listdir("Commands/Leveling"):
         if commands.endswith(".py"):
-            cog3 = commands[:-3]
-            bot.load_extension(f"Commands.Leveling.{cog3}")
+            cog = commands[:-3]
+            bot.load_extension(f"Commands.Leveling.{cog}")
+    
+    for commands in os.listdir("Commands/Game"):
+        if commands.endswith(".py"):
+            cog = commands[:-3]
+            bot.load_extension(f"Commands.Game.{cog}")   
+    
 
 load_cogs(bot)            
 
