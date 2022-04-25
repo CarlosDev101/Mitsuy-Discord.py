@@ -70,7 +70,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 	° Tictac - Jogo da velha
 
-<h2 align="left">Funções de entretenimento - Pesquisar Fotos 📷</h2>
+<h2 align="left">📷 Funções de entretenimento - Pesquisar Fotos 📷</h2>
 
 	° Pesquisar - Pesquisa uma foto no google
 	
