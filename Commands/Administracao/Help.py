@@ -60,7 +60,7 @@ class Help(commands.Cog):
                 embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                 resposta = await message.send(embed=embed, delete_after=60)
                 await resposta.add_reaction("⏩")
-                
+
                 if reaction.emoji == "⏩":
                     embed = discord.Embed(
                         title=f'Comandos da Mitsuy [pág 2/2]',
@@ -74,6 +74,7 @@ class Help(commands.Cog):
                         \n**Kick** - Expulsa um membro do servidor
                         \n**Mute** - Silencia um membro
                         \n**Unmute** - Tira o membro do mute
+                        \n**Pesquisar** - Pesquisa uma foto no google
                         \n[Instagram do dono](https://www.instagram.com/carlosdev10/)
                         \n[Servidor para suporte](https://discord.gg/9TcEt3bF)
                         """
@@ -81,7 +82,7 @@ class Help(commands.Cog):
                     embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                     resposta = await message.send(embed=embed, delete_after=60)
                     break
-                    
+
             elif reaction.emoji == "🎮":
                 embed = discord.Embed(
                         title=f'Comandos da Mitsuy',
@@ -94,8 +95,10 @@ class Help(commands.Cog):
                 )
                 embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                 resposta = await message.send(embed=embed, delete_after=60)
+
                 break
-                
+            
+
             elif reaction.emoji == "🎧":
                 embed = discord.Embed(
                         title=f'Comandos da Mitsuy',
@@ -104,7 +107,8 @@ class Help(commands.Cog):
                         \n**Play** - Toca uma música
                         \n**Queue** - Mostra as atuais músicas da fila
                         \n**Skip** - Pula a atual música que está tocando
-                        \n**Pesquisar** - Pesquisa uma foto no google
+                        \n**Pause** - Pausa a  música
+                        \n**Resume** - Despausa a música
                         \n[Instagram do dono](https://www.instagram.com/carlosdev10/)
                         \n[Servidor para suporte](https://discord.gg/9TcEt3bF)
                         """
@@ -112,6 +116,6 @@ class Help(commands.Cog):
                 embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                 resposta = await message.send(embed=embed, delete_after=60)
                 break
-                
+          
 def setup(bot):
     bot.add_cog(Help(bot))
