@@ -8,7 +8,7 @@
 
 Mitsuy é um bot feito em python para o discord. Mitsuy foi criada para te ajudar a administrar o servidor, com tarefas chatas do tipo: <b>Criar canais, deletar canais, apagar as mensagens</b> entre outras coisas.
 
-<h1 align="center">📆  Features</h2>
+<h1 align="center">📆  Features   📆</h2>
 
 Todos os que estão marcados já se encontram presente na **Mitsuy-Bot** funcionando. 
 Os que não estão, é porque ainda estão em desenvolvimento.
@@ -22,7 +22,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 - [x] Jogar jogos
 
 
-<h2 align="left">Mitsuy possui as seguintes funções de Administração 🕵</h1>
+<h2 align="left">🕵 Mitsuy possui as seguintes funções de Administração 🕵</h1>
 
 	° Avatar - Vizualizar a foto de perfil do membro
 
@@ -58,7 +58,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 	° Unmute - Tira o membro do mute
 
-<h2 align="left">Funções de entretenimento - Música 🎶</h2>
+<h2 align="left">🎶 Funções de entretenimento - Música 🎶</h2>
 
 	° Play - Toca uma música
 	
@@ -66,7 +66,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 	° Skip - Pula a atual música que está tocando
 
-<h2 align="left">Funções de entretenimento - Jogos 🎮</h2>
+<h2 align="left">🎮 Funções de entretenimento - Jogos 🎮</h2>
 
 	° Tictac - Jogo da velha
 
