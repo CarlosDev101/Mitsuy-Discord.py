@@ -79,5 +79,8 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 	° dentro do arquivo .env coloque seu token
 
 	° o prefix padrão do bot vem como !, caso queira mudar entre no main.py e troque na linha 4
+	
+<h2 align="left">Como conseguir o token🔨</h2>
+<a href="https://discord.com/developers/applications/" target="_blank">Acesese este site aqui</a>
 
 
