@@ -22,7 +22,7 @@ class TicToe(commands.Cog):
     ]
 
     @commands.guild_only()
-    @commands.command(name="Tictac", aliases=["tictoe", "Velha", "velha"], help="Jogo da velha")
+    @commands.command(name="Tictac", aliases=["tictac", "Velha", "velha"], help="Jogo da velha")
     async def game(self, ctx, p1: discord.Member, p2: discord.Member):
         global count
         global player1
