@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from discord.utils import get
 from youtube_dl import YoutubeDL
 
 class MusicYT(commands.Cog):
@@ -47,7 +48,6 @@ class MusicYT(commands.Cog):
             self.is_playing = False
             await self.vc.disconnect()
 
-
     @commands.guild_only()
     @commands.command(name="Play", help="Toca uma música do YouTube",aliases=["play", 'p','tocar'])
     async def p(self, ctx, *args):
@@ -85,7 +85,49 @@ class MusicYT(commands.Cog):
                 
                 if self.is_playing == False:
                     await self.play_music()
-    
+
+    @commands.guild_only()
+    @commands.command(name="Pause", aliases=["pause", "pausa", "Pausa", "Stop", "stop"], help="Pausa a musica")
+    async def pause(self, ctx):
+        voice = get(self.bot.voice_clients, guild=ctx.guild)
+        if voice and voice.is_playing():
+            embed = discord.Embed(
+                title="Música Pausada",
+                colour= 0x0000ff,
+                description = 'Sua música foi pausada.'
+            )
+            embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
+            await ctx.send(embed=embed)
+        else:
+            embed = discord.Embed(
+                title="Algo deu errado",
+                colour= 0x0000ff,
+                description = 'Não foi possivel pausar sua música.'
+            )
+            embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
+            await ctx.send(embed=embed)           
+
+    @commands.guild_only()
+    @commands.command(name="Resume", aliases=["resume", "Despausar", "despausar"], help="Despausa a musica")
+    async def reume(self, ctx):
+        voice = get(self.bot.voice_clients, guild=ctx.guild)
+        if voice and voice.is_paused():
+            embed = discord.Embed(
+                title="Música Despausada",
+                colour= 0x0000ff,
+                description = 'Sua música foi despausada.'
+            )
+            embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
+            await ctx.send(embed=embed)
+        else:
+            embed = discord.Embed(
+                title="Algo deu errado",
+                colour= 0x0000ff,
+                description = 'Não foi possivel despausarpausar sua música.'
+            )
+            embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
+            await ctx.send(embed=embed) 
+
     @commands.guild_only()
     @commands.command(name="Queue", help="Mostra as atuais músicas da fila.",aliases=["queue", 'q','fila'])
     async def q(self, ctx):
@@ -123,7 +165,7 @@ class MusicYT(commands.Cog):
             )
             embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)            
             await ctx.send(embed=embed)
-
+            
     @skip.error
     async def skip_error(self,ctx,error):
         if isinstance(error, commands.MissingPermissions):
@@ -136,7 +178,6 @@ class MusicYT(commands.Cog):
             await ctx.send(embed=embed)     
         else:
             raise error
-
+            
 def setup(bot):
     bot.add_cog(MusicYT(bot))
-
