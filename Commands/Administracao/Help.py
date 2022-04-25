@@ -81,7 +81,7 @@ class Help(commands.Cog):
                     embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                     resposta = await message.send(embed=embed, delete_after=60)
                     break
-
+                    
             elif reaction.emoji == "🎮":
                 embed = discord.Embed(
                         title=f'Comandos da Mitsuy',
@@ -95,7 +95,7 @@ class Help(commands.Cog):
                 embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                 resposta = await message.send(embed=embed, delete_after=60)
                 break
-
+                
             elif reaction.emoji == "🎧":
                 embed = discord.Embed(
                         title=f'Comandos da Mitsuy',
@@ -112,6 +112,6 @@ class Help(commands.Cog):
                 embed.set_author(name= self.bot.user.name, icon_url = self.bot.user.avatar_url)
                 resposta = await message.send(embed=embed, delete_after=60)
                 break
-
+                
 def setup(bot):
     bot.add_cog(Help(bot))
