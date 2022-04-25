@@ -74,6 +74,10 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 	° Skip - Pula a atual música que está tocando
 
+	° Pause - Pausa a música
+
+	° Resume - Continua a música
+
 <h2 align="left">🎮 Funções de entretenimento - Jogos 🎮</h2>
 
 	° Tictac - Jogo da velha
