@@ -12,6 +12,11 @@
 
 Mitsuy é um bot feito em python para o discord. Mitsuy foi criada para te ajudar a administrar o servidor, com tarefas chatas do tipo: <b>Criar canais, deletar canais, apagar as mensagens</b> entre outras coisas.
 
+<p align="center">
+  <a href="https://github.com/CarlosDev101/Mitsuy-Discord.py/blob/main/README.md">Features</a> •
+  <a href="https://github.com/CarlosDev101">Author</a>
+</p>
+
 <h1 align="center">📆  Features   📆</h2>
 
 Todos os que estão marcados já se encontram presente na **Mitsuy-Bot** funcionando. 
