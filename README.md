@@ -88,7 +88,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 	
 <h2 align="left">🔎 Como configurar o bot 🔎</h2>
 
-	° dentro do arquivo .env coloque seu token
+	° Dentro do arquivo .env coloque seu token
 
 	° o prefix padrão do bot vem como !, caso queira mudar entre no main.py e troque na linha 4
 	
