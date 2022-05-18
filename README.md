@@ -92,6 +92,6 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 	
 <h2 align="left">🗝 Como conseguir o token 🗝</h2>
 Você vai precisar entrar no site do Discord Developer e logar com sua conta do discord. Depois disso crie uma aplicação, coloque o nome do seu bot, foto e regenera o seu Token.
-<a href="https://discord.com/developers/applications/" target="_blank">Acesese o site clicando aqui</a>
+<a href="https://discord.com/developers/applications/" target="_blank">Acesse o site clicando aqui</a>
 
 
