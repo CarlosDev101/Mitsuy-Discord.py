@@ -88,26 +88,26 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 
 Dentro do seu terminal instale estes pacotes aqui
 
-	° pip install discord.py	
-	° pip install discord.py[voice]
-	° pip install PyNaCl
-	° pip install more-itertools
-	° pip install google-api-python-client
-	° pip install Youtube_dl
-	° pip install Translate
+	 pip install discord.py	
+	 pip install discord.py[voice]
+	 pip install PyNaCl
+	 pip install more-itertools
+	 pip install google-api-python-client
+	 pip install Youtube_dl
+	 pip install Translate
 
 Após isso, adicione o token do seu bot no arquivo
 
-	° .env
+	 .env
 Por padrão o prefix do bot vem como
 
-	° !
+	 !
 Caso deseje mudar, vai no arquivo
 
-	° main.py
+	 main.py
 E coloque o prefix do bot na qual você queira em
 
-	° bot = commands.Bot("!")
+	 bot = commands.Bot("!")
 <h2 align="left">🗝 Como conseguir o token 🗝</h2>
 Você vai precisar entrar no site do Discord Developer e logar com sua conta do discord. Depois disso crie uma aplicação, coloque o nome do seu bot, foto e regenera o seu Token.
 <a href="https://discord.com/developers/applications/" target="_blank">Acesse o site clicando aqui</a>
