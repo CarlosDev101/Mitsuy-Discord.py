@@ -22,7 +22,7 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 - [X] Ouvir músicas
 - [X] Pesquisar imagens
 - [X] Traduzir mensagens
-- [ ] Inteligencia artificial
+- [X] Inteligencia artificial
 - [ ] Assistir animes
 - [X] Sistema de level
 - [x] Jogar jogos
