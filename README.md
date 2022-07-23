@@ -83,6 +83,10 @@ Os que não estão, é porque ainda estão em desenvolvimento.
 <h2 align="left">📷 Funções de entretenimento - Pesquisar Fotos 📷</h2>
 
 	° Pesquisar - Pesquisa uma foto no google
+
+<h2 align="left">🤖 Funções de entretenimento - Inteligencia Artificial 🤖</h2>
+
+	° IA - Conversa com a Inteligencia Artificial
 	
 <h2 align="left">🔎 Como configurar o bot 🔎</h2>
 
